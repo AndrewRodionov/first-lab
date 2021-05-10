@@ -1,0 +1,18 @@
+<suite name="Unit Tests">
+    <test name="Positive Pen cases">
+        <classes>
+            <class name="PenTests"></class>
+            <methods>
+                <include name="FirstConstructorTest"/>
+                <include name="SecondConstructorTest"/>
+                <include name="ThirdConstructorTest"/>
+                <include name="GetColourReturnsCorrectColour"/>
+                <include name="IsWorkReturnsCorrectStatus"/>
+                <include name="writeReturnEmptyStringForEmptyPen"/>
+                <include name="writeReturnCorrectStringForNotEmptyPen"/>
+                <include name="writeReturnCorrectStringForNotEmptyPen"/>
+                <include name="doSomethingElseWritesCorrectColour"/>
+            </methods>
+        </classes>
+    </test>
+</suite>
